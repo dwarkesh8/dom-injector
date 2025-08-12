@@ -1,6 +1,3 @@
-
-
-
 # DOM Injector
 
 A minimal Node.js-based tool that takes plain HTML, CSS, and JavaScript files, minifies them, and outputs a single injectable script (`injector.js`) that dynamically renders your UI in the browser.  
@@ -42,7 +39,12 @@ ALLOWED_DOMAINS=example.com,sub.example.com,localhost
 
 ---
 
+
+
+
 ### 4. Build the Injector
+
+Before building, don't forget to add the frontend code inside `src/`
 
 ```sh
 npm run build
